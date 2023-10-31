@@ -1,7 +1,7 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
 import Header from './components/Header/header'
-
+import Footer  from './components/Footer/Footer'
 import '../app/components/libCss/style.css';
 import '../app/components/libCss/utils.css';
 import '../app/components/libCss/modern-normalize.css';
@@ -30,7 +30,7 @@ export default function RootLayout({ children }) {
       <MobileNav />
       {/* mNav(); */}
         {children}
-   
+        <Footer />
         </body>
    </html>
   )
