@@ -1,3 +1,47 @@
+.digital-product {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.05em;
+  line-height: 140%;
+  font-weight: 500;
+}
+.development-agency,
+.global-development-company {
+  align-self: stretch;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.development-agency {
+  font-size: 57px;
+  line-height: 65px;
+  height: 80px;
+}
+.global-development-company {
+  font-size: var(--font-size-xl);
+  letter-spacing: 0.02em;
+  line-height: 140%;
+  color: var(--black);
+  height: 100px;
+}
+.streamlinecomputer-webcam-vid-icon {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.schedule-a-call1 {
+  position: relative;
+  line-height: 140%;
+  font-weight: 500;
+  display: inline-block;
+  width: 133.3px;
+  height: 22px;
+  flex-shrink: 0;
+}
+
 .header-content,
 .schedule-a-call,
 .schedule-reframe {
